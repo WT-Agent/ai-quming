@@ -3,7 +3,7 @@
     <div class="ticker-wrapper">
       <div v-for="(item, index) in tickerItems" :key="index" class="ticker-item">
         <span>{{ item.text }}</span>
-        <span style="color: var(--success-color); font-weight: bold;">[生成完成]</span>
+        <span style="color: var(--success-color); font-weight: bold;">[生成成功]</span>
       </div>
     </div>
   </div>
@@ -13,20 +13,10 @@
 import { ref } from 'vue';
 
 const tickerItems = ref([
-  {
-    "text": "用户 138****9911 生成了新中式香氛品牌 5 个古风雅致名字"
-  },
-  {
-    "text": "用户 186****2200 获得了取自《楚辞》的女宝宝温婉吉名"
-  },
-  {
-    "text": "用户 132****4455 完成了智能机器人公司科技感英文品牌命名"
-  },
-  {
-    "text": "用户 159****7788 生成了独立咖啡馆与品牌一句话 Slogan"
-  },
-  {
-    "text": "用户 175****1122 取得了小红书美学摄影博主高端个性网名"
-  }
+  { text: '用户 135****4829 成功生成了文案' },
+  { text: '用户 173****9238 成功合成了图像' },
+  { text: '用户 189****1102 成功解析了数据' },
+  { text: '用户 130****8739 成功翻译了内容' },
+  { text: '用户 152****2394 成功生成了朋友圈文案' },
 ]);
 </script>
